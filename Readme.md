@@ -34,4 +34,4 @@ Para baixar e executar este projeto em sua máquina local, siga os passos abaixo
 2. Navegue até o diretório onde deseja salvar o projeto.
 3. Execute o comando de clonagem:
    ```bash
-   git clone [https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git](https://github.com/SEU-USUARIO/NOME-DO-REPOSITORIO.git)
+   git clone [https://github.com/caua- barretto/Display_ta.git]
