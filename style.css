@@ -1,0 +1,42 @@
+/*reset dos elementos*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body-container{
+    background-color: darkgreen;
+    text-align: center;
+}
+
+
+
+.header-container{
+    width: 100%;
+    height: 80px;
+    background-color: gray;
+    text-align: center;
+}
+
+.header-container a{
+   display: inline-block;
+   background-color: green;
+   text-decoration: none;
+   font-size: x-large;
+   color: white;
+
+   margin: 10px 15px 0;
+
+   margin-top: 10px;
+   margin-left: 15px;
+
+   padding: 15px;
+
+
+   border-width: 2px;
+   border-style: solid;
+   border-color: blue;
+}
+
