@@ -25,7 +25,36 @@ body{
 }
 
 .banner-header{
-    width: 90%;
-    height: 90%;
+    width: 890px;
+    height: 80%;
+
     background-color: lightgreen;
+    display: flex;
 }
+.content-hero{
+    border: 2px solid;
+    width: 50%;
+    height: 65%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 0 auto;
+
+}
+
+.box{
+    border: 2px solid;
+    width: 285px;
+    height: 480px;
+
+    background-color: green;
+    border-color: rgb(0, 61, 0);
+    color: white;
+
+    border-radius: 15px;
+
+    text-align: center;
+}
+
