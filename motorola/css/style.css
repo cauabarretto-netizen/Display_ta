@@ -15,11 +15,63 @@ body{
 .body-container{
     width: 1440px;
     height: 650px;
-    background-color: aqua;
+
+    display: flex;
 }
 
 img{
     width: 450px;
 }
 
+.principal-conteudo{
+    height: 100%;
+    width: 100%;
+    padding: 45px;
+}
 
+.cabeçalho-principal{
+    height: 45%;
+}
+
+.cp-titulo{
+    font-size: 65px;
+}
+
+.cp-subtitulo{
+    font-size: 30px;
+}
+
+
+.principal__conteudo--info{
+    display: flex;
+    height: 30%;
+}
+
+
+.principal__conteudo--rodape{
+    height: 30%;
+}
+
+.crg-subtitulo{
+    font-size: 35px;
+}
+
+.crg-texto{
+    font-size: 25px;
+}
+
+.btr-subtitulo{
+    font-size: 35px;
+}
+
+.btr-texto{
+    font-size: 25px;
+}
+
+.p3-subtitulo{
+    font-size: 50px;
+}
+
+.p3-texto{
+    font-size: 20px;
+}
