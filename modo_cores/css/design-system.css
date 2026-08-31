@@ -1,0 +1,55 @@
+:root{
+    /* Cores Globais da Interface (Menu Lateral) */
+    --ui-bg-sidebar: #010d2e;
+    --ui-border: #29292e;
+    --ui-text-title: #ffffff;
+    --ui-text-link: #a8a8b3;
+    --ui-link-hover-bg: #3b3b45;
+    --ui-link-active-bg: #7500c8;
+    --ui-link-active-text: #ffffff;
+
+
+    /* Paleta do Sistema RGB */
+    --color-rgb-1: rgb(173, 27, 27);
+    --color-rgb-2: rgb(54, 199, 66);
+    --color-rgb-3: rgb(47, 161, 255);
+    --color-rgb-4: rgb(255, 170, 43);
+    --color-rgb-5: rgb(179, 41, 243);
+    --color-rgb-6: rgb(247, 27, 192);
+
+    /* Paleta do Sistema CMYK (Simulado em RGB/Hex) */
+    --color-cmyk-1: #e60000; 
+    --color-cmyk-2: #006b00; 
+    --color-cmyk-3: #0000ae; 
+    --color-cmyk-4: #dfdf05; 
+    --color-cmyk-5: #03e6e6; 
+    --color-cmyk-6: #d900d9; 
+}
+
+.color-section__bar--rgb-1{width: 15%; height: 100vh; background-color: var(--color-rgb-1);}
+.color-section__bar--rgb-2{width: 15%; height: 100vh; background-color: var(--color-rgb-2);}
+.color-section__bar--rgb-3{width: 15%; height: 100vh; background-color: var(--color-rgb-3);}
+.color-section__bar--rgb-4{width: 15%; height: 100vh; background-color: var(--color-rgb-4);}
+.color-section__bar--rgb-5{width: 15%; height: 100vh; background-color: var(--color-rgb-5);}
+.color-section__bar--rgb-6{width: 15%; height: 100vh; background-color: var(--color-rgb-6);}
+
+.color-section__bar--cmyk-1{width: 15%; height: 100vh; background-color: var(--color-cmyk-1)}
+.color-section__bar--cmyk-2{width: 15%; height: 100vh; background-color: var(--color-cmyk-2)}
+.color-section__bar--cmyk-3{width: 15%; height: 100vh; background-color: var(--color-cmyk-3)}
+.color-section__bar--cmyk-4{width: 15%; height: 100vh; background-color: var(--color-cmyk-4)}
+.color-section__bar--cmyk-5{width: 15%; height: 100vh; background-color: var(--color-cmyk-5)}
+.color-section__bar--cmyk-6{width: 15%; height: 100vh; background-color: var(--color-cmyk-6)}
+
+.color-section__bar--netflix-1{}
+.color-section__bar--netflix-2{}
+.color-section__bar--netflix-3{}
+.color-section__bar--netflix-4{}
+.color-section__bar--netflix-5{}
+.color-section__bar--netflix-6{}
+
+.color-section__bar--google-1{}
+.color-section__bar--google-2{}
+.color-section__bar--google-3{}
+.color-section__bar--google-4{}
+.color-section__bar--google-5{}
+.color-section__bar--google-6{}

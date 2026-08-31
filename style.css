@@ -6,6 +6,10 @@
      font-family:'Trebuchet MS', sans-serif;
 }
 
+:root{
+    --bg_body: darkgreen;
+}
+
 .container{
     width: 300px;
     height: 300px;
@@ -14,7 +18,7 @@
 }
 
 .body-container{
-    background-color: darkgreen;
+    background-color: var(--bg_body);
 }
 
 .header-container{

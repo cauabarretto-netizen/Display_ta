@@ -35,45 +35,69 @@ img{
 
 .cp-titulo{
     font-size: 65px;
+    font-family: sans-serif;
+}
+
+.sp_cp{
+    font-size: 15px;
 }
 
 .cp-subtitulo{
     font-size: 30px;
     font-family: sans-serif;
     color: rgb(71, 154, 223);
+    font-weight: 300;
 }
 
 
 .principal__conteudo--info{
     display: flex;
     height: 30%;
+    font-family: sans-serif;
 }
 
 
 .principal__conteudo--rodape{
     height: 30%;
+    font-family: sans-serif;
 }
 
 .crg-subtitulo{
     font-size: 35px;
+        margin: 0px 0px 20px 0px;
 }
+
+.sp_crg{
+    font-size: 15px;}
 
 .crg-texto{
     font-size: 25px;
+    margin: 0px 15px 0px 0px;
 }
+
+.sp_txt{
+    font-size: 15px;}
 
 .btr-subtitulo{
     font-size: 35px;
+        margin: 0px 0px 20px 0px;
 }
 
 .btr-texto{
     font-size: 25px;
 }
 
+.sp_7{
+    font-size: 15px;}
+
 .p3-subtitulo{
     font-size: 50px;
+        margin: 0px 0px 20px 0px;
 }
 
 .p3-texto{
-    font-size: 20px;
+    font-size: 25px;
 }
+
+.sp_8{
+    font-size: 15px;}
