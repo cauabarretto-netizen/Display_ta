@@ -7,6 +7,7 @@
 }
 
 .brands__title{
+    font-size: 20px;
     margin-bottom: 30px;
 }
 
@@ -23,7 +24,7 @@
 }
 
 .brand-card__image{
-    width: 100px;
+    width: 100%;
     height: 400px;
     background-color: grey;
     border-radius: 0 40px 0 40px;
@@ -31,4 +32,13 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+}
+
+.brand-card__description{
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+.brand-card__button{
+
 }
