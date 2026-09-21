@@ -47,7 +47,7 @@
 .color-section__link--active{
     color: var(--ui-link-active-text);
     background-color: var(--ui-link-active-bg);
-    box-shadow: 0 1px 6px rgba(244, 244, 248, 0.25);
+    box-shadow: 0 2px 8px rgba(244, 244, 248, 0.5);
 }
 
 .color-section__link--active:hover{
@@ -65,8 +65,31 @@
 
     transition: transform 0.25s ease;
 }
+
 .color-section__bar:hover{
     z-index: 10;
-    box-shadow: 0 0 30px rgba(51, 50, 50, 0.3);
+    box-shadow: 5px 10px 30px rgba(51, 50, 50, 1.0);
 }
 
+.color-section__content{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    flex-grow: 1;
+}
+
+.color-section__palette{
+    display: flex;
+    height: 43vh;
+    width: 100%;
+}
+
+.color-section__faq{
+    flex-grow: 1;
+}
+
+.color-section__faq-item{}
+
+.color-section__faq-question{}
+
+.color-section__faq-answer{}

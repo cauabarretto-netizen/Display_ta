@@ -26,11 +26,11 @@
     --color-cmyk-6: #d900d9; 
 
     /* Paleta sistema Netflix */
-    --color-netflix1:#ffffff;
-    --color-netflix2:#1F1F1F;
-    --color-netflix3:#141414;
-    --color-netflix4:#B20710;
-    --color-netflix5:#E50914;
+    --color-netflix-1:#ffffff;
+    --color-netflix-2:#1F1F1F;
+    --color-netflix-3:#141414;
+    --color-netflix-4:#B20710;
+    --color-netflix-5:#E50914;
 
     /* Paleta de Cores Google */
     --color-google-1:#4285F4;
@@ -40,9 +40,23 @@
 
 
     /* Paleta sistema BMW */
-    --color-bmw:
+    --color-bmw-1:#0066B1;
+    --color-bmw-2:#031E49;
+    --color-bmw-3:#E22718;
+    --color-bmw-4:#FFFFFF;
+    --color-bmw-5:#6F6F6F;
 
 
+    /* Cores e Estilos do FAQ (Tons mais claros que a Sidebar) */
+    --faq-bg: #0d1b3e;
+    --faq-card-bg: #16264f;
+    --faq-card-hover-bg: #1e3266;
+    --faq-border: #2a3e75;
+    --faq-border-neon: #2e6823;
+    --faq-border-neon-glow: #1ec943;
+    --faq-text-title: #ffffff;
+    --faq-text-question: #e2e8f0;
+    --faq-text-answer: #94a3b8
 }
 
 

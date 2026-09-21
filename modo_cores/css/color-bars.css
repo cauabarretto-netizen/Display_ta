@@ -12,17 +12,25 @@
 .color-section__bar--cmyk-5{background-color: var(--color-cmyk-5)}
 .color-section__bar--cmyk-6{background-color: var(--color-cmyk-6)}
 
-.color-section__bar--netflix-1{background-color: var(--color-netflix1);}
-.color-section__bar--netflix-2{background-color: var(--color-netflix2);}
-.color-section__bar--netflix-3{background-color: var(--color-netflix3);}
-.color-section__bar--netflix-4{background-color: var(--color-netflix4);}
-.color-section__bar--netflix-5{background-color: var(--color-netflix5);}
+.color-section__bar--netflix-1{background-color: var(--color-netflix-1);}
+.color-section__bar--netflix-2{background-color: var(--color-netflix-2);}
+.color-section__bar--netflix-3{background-color: var(--color-netflix-3);}
+.color-section__bar--netflix-4{background-color: var(--color-netflix-4);}
+.color-section__bar--netflix-5{background-color: var(--color-netflix-5);}
 
-.color-section__bar--google-1{background-color: var(--color-google1);}
-.color-section__bar--google-2{}
-.color-section__bar--google-3{}
-.color-section__bar--google-4{}
+.color-section__bar--google-1{background-color: var(--color-google-1);}
+.color-section__bar--google-2{background-color: var(--color-google-2);}
+.color-section__bar--google-3{background-color: var(--color-google-3);}
+.color-section__bar--google-4{background-color: var(--color-google-4);}
 
-.color-section__bar--bmw1{}
-.color-section__bar--bmw2{}
-.color-section__bar--bmw3{}
+.color-section__bar--bmw-1{background-color: var(--color-bmw-1);}
+.color-section__bar--bmw-2{background-color: var(--color-bmw-2);}
+.color-section__bar--bmw-3{background-color: var(--color-bmw-3);}
+.color-section__bar--bmw-4{background-color: var(--color-bmw-4);}
+.color-section__bar--bmw-5{background-color: var(--color-bmw-5);}
+
+   
+    
+    
+    
+    
