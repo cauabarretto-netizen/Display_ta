@@ -1,6 +1,6 @@
 :root{
     /* Cores Globais da Interface (Menu Lateral) */
-    --ui-bg-sidebar: #010d2e;
+    --ui-bg-sidebar: #001d0d;
     --ui-border: #29292e;
     --ui-text-title: #ffffff;
     --ui-text-link: #a8a8b3;
@@ -32,35 +32,16 @@
     --color-netflix4:#B20710;
     --color-netflix5:#E50914;
 
+    /* Paleta sistema Google */
+    --color-google1:rgb(66, 133, 244);
+    --color-google2:rgb(234, 67, 53);
+    --color-google3:rgb(251, 188, 5);
+    --color-google4:rgb(15, 157, 88);
+
+    /* Paleta sistema BMW */
+    --color-bmw:
+
+
 }
 
-.color-section__bar--rgb-1{background-color: var(--color-rgb-1);}
-.color-section__bar--rgb-2{background-color: var(--color-rgb-2);}
-.color-section__bar--rgb-3{background-color: var(--color-rgb-3);}
-.color-section__bar--rgb-4{background-color: var(--color-rgb-4);}
-.color-section__bar--rgb-5{background-color: var(--color-rgb-5);}
-.color-section__bar--rgb-6{background-color: var(--color-rgb-6);}
-
-.color-section__bar--cmyk-1{background-color: var(--color-cmyk-1)}
-.color-section__bar--cmyk-2{background-color: var(--color-cmyk-2)}
-.color-section__bar--cmyk-3{background-color: var(--color-cmyk-3)}
-.color-section__bar--cmyk-4{background-color: var(--color-cmyk-4)}
-.color-section__bar--cmyk-5{background-color: var(--color-cmyk-5)}
-.color-section__bar--cmyk-6{background-color: var(--color-cmyk-6)}
-
-.color-section__bar--netflix-1{background-color: var(--color-netflix1);}
-.color-section__bar--netflix-2{background-color: var(--color-netflix2);}
-.color-section__bar--netflix-3{background-color: var(--color-netflix3);}
-.color-section__bar--netflix-4{background-color: var(--color-netflix4);}
-.color-section__bar--netflix-5{background-color: var(--color-netflix5);}
-
-
-.color-section__bar--google-1{}
-.color-section__bar--google-2{}
-.color-section__bar--google-3{}
-.color-section__bar--google-4{}
-
-.color-section__bar--bmw1{}
-.color-section__bar--bmw2{}
-.color-section__bar--bmw3{}
 

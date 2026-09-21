@@ -105,3 +105,13 @@ li{
 
 }
 
+.faq{
+    width: 100%;
+    border: 2px solid;
+}
+
+.faq details{
+    background: #2c2c2c;
+    color: white;
+    line-height: 18px;
+}
