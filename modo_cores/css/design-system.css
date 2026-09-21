@@ -24,6 +24,14 @@
     --color-cmyk-4: #dfdf05; 
     --color-cmyk-5: #03e6e6; 
     --color-cmyk-6: #d900d9; 
+
+    /* Paleta sistema Netflix */
+    --color-netflix1:#ffffff;
+    --color-netflix2:#1F1F1F;
+    --color-netflix3:#141414;
+    --color-netflix4:#B20710;
+    --color-netflix5:#E50914;
+
 }
 
 .color-section__bar--rgb-1{background-color: var(--color-rgb-1);}
@@ -40,10 +48,11 @@
 .color-section__bar--cmyk-5{background-color: var(--color-cmyk-5)}
 .color-section__bar--cmyk-6{background-color: var(--color-cmyk-6)}
 
-.color-section__bar--netflix-1{}
-.color-section__bar--netflix-2{}
-.color-section__bar--netflix-3{}
-.color-section__bar--netflix-4{}
+.color-section__bar--netflix-1{background-color: var(--color-netflix1);}
+.color-section__bar--netflix-2{background-color: var(--color-netflix2);}
+.color-section__bar--netflix-3{background-color: var(--color-netflix3);}
+.color-section__bar--netflix-4{background-color: var(--color-netflix4);}
+.color-section__bar--netflix-5{background-color: var(--color-netflix5);}
 
 
 .color-section__bar--google-1{}
