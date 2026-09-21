@@ -108,10 +108,31 @@ li{
 .faq{
     width: 100%;
     border: 2px solid;
+    margin-left: 35px;
+    border-radius: 15px;
+    list-style: none;
 }
 
 .faq details{
     background: #2c2c2c;
     color: white;
-    line-height: 18px;
+    line-height: 40px;
+    padding: 10px 20px;
+    list-style: none;
+}
+
+.faq summary{
+    background: cadetblue;
+    border-radius: 10px;
+    list-style: none;
+    padding-left: 15px;
+}
+
+.faq summary:hover{
+    cursor: pointer;
+}
+
+.faq p{
+    color: lightgray;
+    line-height: 25px;
 }

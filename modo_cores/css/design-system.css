@@ -32,11 +32,12 @@
     --color-netflix4:#B20710;
     --color-netflix5:#E50914;
 
-    /* Paleta sistema Google */
-    --color-google1:rgb(66, 133, 244);
-    --color-google2:rgb(234, 67, 53);
-    --color-google3:rgb(251, 188, 5);
-    --color-google4:rgb(15, 157, 88);
+    /* Paleta de Cores Google */
+    --color-google-1:#4285F4;
+    --color-google-2:#FBBC05;
+    --color-google-3:#34A853;
+    --color-google-4:#f73a29;
+
 
     /* Paleta sistema BMW */
     --color-bmw:
