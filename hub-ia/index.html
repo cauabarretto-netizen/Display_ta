@@ -9,27 +9,50 @@
 
     <!-- estilo pagina -->
     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body {
             background-color: #0A36AF;
         }
         
-        @media (min-width: 768px){
-            body{
+        .container{
+            width: 100%;
+            display: flex;
+            gap: 15px;
+        }
+
+        .box{
+            width: 400px;
+            height: 200px;
+            background-color: black;
+        }
+
+        @media (min-width: 768px) {
+            body {
                 background-color: crimson;
             }
         }
 
-        @media screen and (max-width: 480px)  {
+        @media screen and (max-width: 480px) {
             body {
                 background-color: #006437;
             }
         }
-
     </style>
 </head>
 
 <body>
-
+    <h1>Teste com CSS @media Query</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
 </body>
 
 </html>
