@@ -1,5 +1,5 @@
 @import "css/variable.css";
-@import "css/responsive.css"
+@import "css/reset.css"
 
 .header{
 
@@ -70,4 +70,22 @@
     
 }
 
+.faq__title{
 
+}
+
+.faq__wrapper{
+
+}
+
+.faq__item{
+
+}
+
+.faq__summary{
+
+}
+
+.faq__text{
+    
+}
