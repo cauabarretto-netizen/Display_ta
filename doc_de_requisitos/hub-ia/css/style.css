@@ -93,6 +93,9 @@
 }
 
 .section-ia__text{
+    color: var(--color-text-muted);
+    margin-bottom: 15px;
+    font-size: var(--font-size-base);
 
 }
 
