@@ -8,56 +8,91 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <main id="featured_products">
-        <h2 class="featured-products__title">Produtos em Destaques</h2>
-        <nav class="category_tabs">
-            <ul class="category-tabs__list">
-                <li class="category-tabs__button">Mais novo flagship</li>
-                <li class="category-tabs__button">Fique na tendência</li>
-                <li class="category-tabs__button">Focado em saúde</li>
-                <li class="category-tabs__button">Mundo gaming</li>
-            </ul>
-        </nav>
+ <section class="featured-products">
+  <!-- Título Principal da Secção -->
+  <h2 class="featured-products__title">Produtos em destaque</h2>
 
+  <!-- Barra de Navegação por Abas -->
+  <nav class="category-tabs" aria-label="Categorias de produtos em destaque">
+    <ul class="category-tabs__list" role="tablist">
+      <li role="presentation">
+        <button class="category-tabs__button category-tabs__button--active" role="tab" aria-selected="true">
+          Mais novo flagship
+        </button>
+      </li>
+      <li role="presentation">
+        <button class="category-tabs__button" role="tab" aria-selected="false">
+          Fique na tendência
+        </button>
+      </li>
+      <li role="presentation">
+        <button class="category-tabs__button" role="tab" aria-selected="false">
+          Focado em saúde
+        </button>
+      </li>
+      <li role="presentation">
+        <button class="category-tabs__button" role="tab" aria-selected="false">
+          Mundo gaming
+        </button>
+      </li>
+    </ul>
+  </nav>
 
-        <article class="hero-product">
-            <img src="" alt="">
-        
-            <div class="product-details">
-                <h3>Xiaomi 15T Pro</h3>
-                <p>Obras-primasz ao alcance</p>
-                <p>Objetivas Leica Summilux</p>
-                <a class="cta-button">Saiba mais</a>
-            </div>
-        </article>
+  <!-- Banner do Produto em Destaque (Hero) -->
+  <article class="hero-product">
+    <div class="hero-product__media">
+      <img src="./img/images.jpg" alt="Pessoa a utilizar o Xiaomi 15T Pro" class="hero-product__image">
+    </div>
+    
+    <div class="hero-product__content">
+      <span class="hero-product__badge">Xiaomi HyperAI</span>
+      
+      <h3 class="hero-product__title">Xiaomi 15T Pro</h3>
+      
+      <p class="hero-product__subtitle">
+        CO-ENGINEERED WITH <img src="images/leica-logo.svg" alt="Leica" class="hero-product__brand-logo">
+      </p>
 
-        <div class="product-grid">
+      <p class="hero-product__description">
+        <strong>Obras-primas ao alcance</strong><br>
+        Objetivas Leica Summilux
+      </p>
 
-            <article class="product-card">
-                <img src="" alt="REDMI Note 15 5G">
-                <h4>REDMI Note 15 5G</h4>
-                <p></p>
-            </article>
+      <a href="#" class="btn-primary">Saiba mais</a>
+    </div>
+  </article>
 
-            <article class="product-card">
-                <img src="" alt="REDMI Note 15">
-                <h4>REDMI Note 15</h4>
-                <p></p>
-            </article>
+  <!-- Grelha de Produtos Inferiores -->
+  <div class="product-grid">
+    <!-- Cartão 1 -->
+    <article class="product-card">
+      <img src="./img/note 15 5g.jpg" alt="REDMI Note 15 5G" class="product-card__image">
+      <h4 class="product-card__title">REDMI Note 15 5G</h4>
+      <p class="product-card__text">Bateria de 5520mAh (típ)</p>
+    </article>
 
-            <article class="product-card">
-                <img src="" alt="Xiaomi 15T">
-                <h4>Xiaomi 15T</h4>
-                <p></p>
-            </article>
+    <!-- Cartão 2 -->
+    <article class="product-card">
+      <img src="./img/note 15.jpg" alt="REDMI Note 15" class="product-card__image">
+      <h4 class="product-card__title">REDMI Note 15</h4>
+      <p class="product-card__text">Bateria de 6000mAh</p>
+    </article>
 
-            <article class="product-card">
-                <img src="" alt="POCO X8 Pro">
-                <h4>POCO X8 Pro</h4>
-                <p></p>
-            </article>
-            
-            
+    <!-- Cartão 3 -->
+    <article class="product-card">
+      <img src="./img/15t.jpg" alt="Xiaomi 15T" class="product-card__image">
+      <h4 class="product-card__title">Xiaomi 15T</h4>
+      <p class="product-card__text">Fotografia em destaque</p>
+    </article>
+
+    <!-- Cartão 4 -->
+    <article class="product-card">
+      <img src="./img/x8 pro.jpg" alt="POCO X8 Pro" class="product-card__image">
+      <h4 class="product-card__title">POCO X8 Pro</h4>
+      <p class="product-card__text">Bateria de 6500 mAh (típ) com HyperCharge de 100 W</p>
+    </article>
+  </div>
+</section>
         </div>
 
     </main>
