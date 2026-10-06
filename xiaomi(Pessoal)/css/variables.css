@@ -1,0 +1,10 @@
+:root {
+  --primary-orange: #ff6700;
+  --text-dark: #111111;
+  --text-muted: #666666;
+  --bg-card: #f7f7f7;
+  --bg-white: #ffffff;
+  --border-radius-sm: 8px;
+  --border-radius-lg: 16px;
+  --font-main: 'Inter', system-ui, -apple-system, sans-serif;
+}
